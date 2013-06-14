@@ -7,12 +7,20 @@
 //
 
 #import "AppDelegate.h"
+#import "VatBrainNightmareViewController.h"
+
+@interface AppDelegate ()
+
+@property (nonatomic, strong) IBOutlet VatBrainNightmareViewController *vatBrainNightmareViewController;
+
+@end
 
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    self.vatBrainNightmareViewController = [[VatBrainNightmareViewController alloc] initWithNibName:@"VatBrainNightmareViewController" bundle:nil];
+    [self.window.contentView addSubview:self.vatBrainNightmareViewController.view];
 }
 
 @end

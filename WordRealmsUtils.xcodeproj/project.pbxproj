@@ -13,6 +13,8 @@
 		24C1A1F2176968910099E684 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 24C1A1F0176968910099E684 /* Credits.rtf */; };
 		24C1A1F5176968910099E684 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C1A1F4176968910099E684 /* AppDelegate.m */; };
 		24C1A1F8176968910099E684 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24C1A1F6176968910099E684 /* MainMenu.xib */; };
+		24C1A20117696D380099E684 /* VatBrainNightmareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C1A1FF17696D380099E684 /* VatBrainNightmareViewController.m */; };
+		24C1A20217696D380099E684 /* VatBrainNightmareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24C1A20017696D380099E684 /* VatBrainNightmareViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,9 @@
 		24C1A1F3176968910099E684 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		24C1A1F4176968910099E684 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		24C1A1F7176968910099E684 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		24C1A1FE17696D380099E684 /* VatBrainNightmareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VatBrainNightmareViewController.h; sourceTree = "<group>"; };
+		24C1A1FF17696D380099E684 /* VatBrainNightmareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VatBrainNightmareViewController.m; sourceTree = "<group>"; };
+		24C1A20017696D380099E684 /* VatBrainNightmareViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VatBrainNightmareViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +90,9 @@
 				24C1A1F3176968910099E684 /* AppDelegate.h */,
 				24C1A1F4176968910099E684 /* AppDelegate.m */,
 				24C1A1F6176968910099E684 /* MainMenu.xib */,
+				24C1A1FE17696D380099E684 /* VatBrainNightmareViewController.h */,
+				24C1A1FF17696D380099E684 /* VatBrainNightmareViewController.m */,
+				24C1A20017696D380099E684 /* VatBrainNightmareViewController.xib */,
 				24C1A1E8176968910099E684 /* Supporting Files */,
 			);
 			path = WordRealmsUtils;
@@ -156,6 +164,7 @@
 				24C1A1EC176968910099E684 /* InfoPlist.strings in Resources */,
 				24C1A1F2176968910099E684 /* Credits.rtf in Resources */,
 				24C1A1F8176968910099E684 /* MainMenu.xib in Resources */,
+				24C1A20217696D380099E684 /* VatBrainNightmareViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +177,7 @@
 			files = (
 				24C1A1EE176968910099E684 /* main.m in Sources */,
 				24C1A1F5176968910099E684 /* AppDelegate.m in Sources */,
+				24C1A20117696D380099E684 /* VatBrainNightmareViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
